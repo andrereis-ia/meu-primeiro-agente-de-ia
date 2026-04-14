@@ -1,7 +1,7 @@
 # Prompts do Agente
 
 > [!TIP]
-> **Prompt Sugerido para esta etapa:**
+> **Prompt usado para esta etapa:**
 > ```
 > Crie um System Prompt para um agente chamado [nome_seu_agente], [contexto_seu_agente]. Regras:
 > (1) só educa, não recomenda investimentos,
