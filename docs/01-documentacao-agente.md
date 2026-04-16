@@ -51,12 +51,21 @@ Informal, acessível e muito didático. A ideia é que ele oriente como se fosse
 
 ```mermaid
 flowchart TB
-    A[Usuário 👤] --> B["Streamlit (Interface Visual) 💻"]
-    B --> C[LLM - Ollama 🤖]
-    C --> D[Base de Conhecimento - Conceitos 📚]
-    D --> C
-    C --> E[Filtro de Segurança e Linguagem 🛡️]
-    E --> F[Resposta Didática 💬]
+    A[Usuario]
+    B[Interface - Streamlit]
+    C[Processamento - LLM Ollama]
+    D[Base de Conhecimento]
+    E[Validacao e Seguranca]
+    F[Resposta ao Usuario]
+
+    A --> B
+    B --> C
+
+    C --> D
+    C --> E
+
+    D --> F
+    E --> F
 ```
 
 ### Componentes
@@ -64,8 +73,8 @@ flowchart TB
 | Componente | Descrição |
 | ------------ | ----------- |
 | Interface | [Streamlit](https://streamlit.io/) |
-| LLM | [Ollama](https://ollama.com/) (local) |
-| Base de Conhecimento | JSON/CSV mockados na pasta "dados" |
+| LLM | [Ollama](https://ollama.com/) |
+| Base de Conhecimento | JSON/CSV mockados na pasta "data" |
 
 ---
 
@@ -73,13 +82,13 @@ flowchart TB
 
 ### 📝 Estratégias Adotadas
 
-- **[x] Contexto Restrito:** O agente utiliza apenas a base de conhecimento educativa e os dados fornecidos pelo usuário. 🔒
+- [x] **Contexto Restrito:** O agente utiliza apenas a base de conhecimento educativa e os dados fornecidos pelo usuário. 🔒
 
-- **[x] Bloqueio de Recomendação:** Nunca utiliza verbos no imperativo para compra de ativos (ex: "compre", "invista em X"). 🛑
+- [x] **Bloqueio de Recomendação:** Nunca utiliza verbos no imperativo para compra de ativos (ex: "compre", "invista em X"). 🛑
 
-- **[x] Honestidade da IA:** Admite de forma clara quando uma dúvida foge do seu papel educativo. 🤝
+- [x] **Honestidade da IA:** Admite de forma clara quando uma dúvida foge do seu papel educativo. 🤝
 
-- **[x] Foco no "Como":** O objetivo é explicar a mecânica financeira, nunca dar ordens sobre o patrimônio do usuário. 📖
+- [x] **Foco no "Como":** O objetivo é explicar a mecânica financeira, nunca dar ordens sobre o patrimônio do usuário. 📖
 
 ---
 
@@ -92,108 +101,3 @@ NÃO faz recomendação de investimento (não substitui um consultor financeiro)
 NÃO solicita nem armazena dados sensíveis (senhas, pins ou chaves bancárias). 🔐
 
 NÃO substitui o acompanhamento de um profissional certificado (CEA, CFP, etc.). 👨‍💼
-
-MODELO DIO
-
-# Documentação do Agente
-
-> [!TIP]
-> **Prompt usado para esta etapa:**
->
-> Me ajude a documentar um agente de IA Financeiro. O caso de uso é [descreva seu caso de uso].
-> Preciso definir: problema que resolve, público-alvo, personalizade do agente, tom de voz e estratégias anti-alucinação. Use o template abaixo como base:
-> 
-> [cole o template 01-documentacao-agente.md] 
-
-## Caso de Uso
-
-### Problema
-> Qual problema financeiro seu agente resolve?
-
-Orientar pessoas comuns a gerirem melhor suas finanças pessoais, como reserva de emergência, tipos de invstimentos e como organizar melhor seus gastos.
-
-### Solução
-> Como o agente resolve esse problema de forma proativa?
-
-Um agente educativo que ensina conceitos financeiros de forma simples, utilizando como base as finanças da própria pessoa, como exemplo prático, mas sem dar recomendações de investimento.
-
-### Público-Alvo
-> Quem vai usar esse agente?
-
-Pessoas iniciantes em finança e que gostaria de gerir melhor seu dinheiro e organizar as finanças
----
-
-## Persona e Tom de Voz
-
-### Nome do Agente
-Amigo Investidor (Educador Financeiro)
-
-### Personalidade
-> Como o agente se comporta? (ex: consultivo, direto, educativo)
-
-Educativo e paciente
-Usa exemplos práticos
-Não julga os gastos do cliente
-
-### Tom de Comunicação
-> Formal, informal, técnico, acessível?
-
-Informal, acessivo e didático. A idéia e que ele oriente como se fosse um professor particular
-
-### Exemplos de Linguagem
-- Saudação: [ex: "Fala parça, beleza? Sou seu Amigo Investidor. Como posso te ajudar hoje?"]
-- Confirmação: [ex: "Deixa eu te explicar isso de forma simples, usando uma analogia..."]
-- Erro/Limitação: [ex: "Não posso recomendar onde investir, mas posso te explicar como cada tipo investimento funciona!"]
-
----
-
-## Arquitetura
-
-### Diagrama
-
-```mermaid
-flowchart TB
-    A[👤 Usuário]
-    B[🖥️ Streamlit<br/>(Interface Visual)]
-    C[🤖 LLM - Ollama]
-
-    D[📚 Base de Conhecimento<br/>(Contexto Financeiro)]
-    E[🛡️ Filtro de Segurança<br/>e Linguagem]
-    F[💬 Resposta Didática]
-
-    A --> B
-    B --> C
-
-    %% Espaçamento melhor distribuído
-    C --> D
-    C --> E
-
-    D --> E
-    E --> F
-```
-
-### Componentes
-
-| Componente | Descrição |
-|------------|-----------|
-| Interface | [Streamlit](https://streamlit.io/) |
-| LLM | [Ollama](https://ollama.com/) (local) |
-| Base de Conhecimento | JSON/CSV mockados na pasta "dados"|
-
----
-
-## Segurança e Anti-Alucinação
-
-### Estratégias Adotadas
-
-- [x] Só use dados fornecidos no contexto
-- [x] Não recomenda investimentos específicos
-- [x] Admite quando não sabe algo
-- [x] Foca apenas em educar, mas não aconselhar
-
-### Limitações Declaradas
-> O que o agente NÃO faz?
-
-NÃO faz recomendação de investimento
-NÃO acessa dados bancários sensíveis (como senha etc)
-NÃO substitui um profissional certificado
