@@ -54,9 +54,9 @@ Use com os participantes do teste:
 
 | Métrica | Pergunta | Nota (1-5) |
 |---------|----------|------------|
-| Assertividade | "A resposta respondeu sua pergunta?" | ___ |
-| Segurança | "As informações parecem confiáveis?" | ___ |
-| Coerência | "A liguagem foi clara e facil de entender?" | ___ |
+| Assertividade | "A resposta respondeu sua pergunta?" | ____ |
+| Segurança | "As informações parecem confiáveis?" | ____ |
+| Coerência | "A liguagem foi clara e facil de entender?" | ____ |
 
 **Comentário aberto:** O que poderia melhorar?
 
