@@ -50,7 +50,7 @@ Informal, acessível e muito didático. A ideia é que ele oriente como se fosse
 ### 📊 Diagrama
 
 ```mermaid
-flowchart TD
+flowchart TB
     A[Usuário 👤] --> B["Streamlit (Interface Visual) 💻"]
     B --> C[LLM - Ollama 🤖]
     C --> D[Base de Conhecimento - Conceitos 📚]
@@ -152,13 +152,24 @@ Informal, acessivo e didático. A idéia e que ele oriente como se fosse um prof
 ### Diagrama
 
 ```mermaid
-flowchart TD
-    A[Usuário] --> B["Streamlit (Interface Visual)"]
-    B --> C[LLM]
-    C --> D[Base de Conhecimento]
-    D --> C
-    C --> E[Validação]
-    E --> F[Resposta]
+flowchart TB
+    A[👤 Usuário]
+    B[🖥️ Streamlit<br/>(Interface Visual)]
+    C[🤖 LLM - Ollama]
+
+    D[📚 Base de Conhecimento<br/>(Contexto Financeiro)]
+    E[🛡️ Filtro de Segurança<br/>e Linguagem]
+    F[💬 Resposta Didática]
+
+    A --> B
+    B --> C
+
+    %% Espaçamento melhor distribuído
+    C --> D
+    C --> E
+
+    D --> E
+    E --> F
 ```
 
 ### Componentes
