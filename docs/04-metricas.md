@@ -71,6 +71,3 @@ Após os testes, registre suas conclusões:
 
 **O que pode melhorar:**
 - [Liste aqui]
-
-
-nesse monitoramento. Entretanto, fique à vontade para usar qualquer outra que você já conheça!
