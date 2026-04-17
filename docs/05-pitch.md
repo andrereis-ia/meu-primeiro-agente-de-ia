@@ -19,7 +19,7 @@
 ### 2. Solução (60 seg)
 > "O Amigo Investidor é um educador financeiro que ensina de forma personalizada. Ele usa seus próprios dados para dar exemplos práticos. Não recomenda investimentos, só educa. É como ter um professor particular de finanças disponível 24h."
 
-### 3. Demon (60 se)
+### 3. Demo (60 se)
 > [Compartilhe a tela e faça 2-3 perguntas ao Amigo Investidor]
 
 - "O que é CDI?"
