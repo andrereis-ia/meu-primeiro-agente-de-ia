@@ -20,6 +20,7 @@
 > "O Amigo Investidor é um educador financeiro que ensina de forma personalizada. Ele usa seus próprios dados para dar exemplos práticos. Não recomenda investimentos, só educa. É como ter um professor particular de finanças disponível 24h."
 
 ### 3. Demo (60 se)
+
 > [Compartilhe a tela e faça 2-3 perguntas ao Amigo Investidor]
 
 - "O que é CDI?"
@@ -27,17 +28,18 @@
 -  "Me explica o que é Tesouro Selic"
 
 ### 4. Diferencial (30 seg)
+
 > "Diferente de chatbots genéricos, o Amigo Investidor usa SEUS dados como exemplo. Isso torna o aprendizado concreto. E o melhor: roda 100% local, sem custo e sem enviar seus dados pra ninguém."
 
 ---
 
 ## Checklist do Pitch
 
-- [ ] Duração máxima de 3 minutos
-- [ ] Problema claramente definido
-- [ ] Solução demonstrada na prática
-- [ ] Diferencial explicado
-- [ ] Áudio e vídeo com boa qualidade
+- [X] Duração máxima de 3 minutos
+- [X] Problema claramente definido
+- [X] Solução demonstrada na prática
+- [X] Diferencial explicado
+- [X] Áudio e vídeo com boa qualidade
 
 ---
 
