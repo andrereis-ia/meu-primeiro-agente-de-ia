@@ -76,6 +76,7 @@ flowchart TB
 | LLM | [Ollama](https://ollama.com/) |
 | Base de Conhecimento | JSON/CSV mockados na pasta "data" |
 | Criação do Avatar | [d-id](https://www.d-id.com/) |
+| Criação de Slides | [NotebookLM](https://notebooklm.google.com/) |
 
 
 ---
