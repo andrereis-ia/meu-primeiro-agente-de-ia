@@ -43,6 +43,8 @@
 
 ---
 
-## Link do Vídeo
+## Link do Vídeo (Pitch) e Slide Explicativo
 
-Vídeo de apresentação [Avatar Amigo Investidor](https://drive.google.com/file/d/16YM189XKG0OE9qt4RcjEYpxCMZNF5XPp/view?usp=sharing)
+Slides [Amigo Investidor](https://docs.google.com/presentation/d/1bGYQbHB7ySUzxa3JyUZDP2ewpVM2GTSA/edit?slide=id.p1#slide=id.p1)
+
+Pitch [Avatar Amigo Investidor](https://drive.google.com/file/d/16YM189XKG0OE9qt4RcjEYpxCMZNF5XPp/view?usp=sharing)
