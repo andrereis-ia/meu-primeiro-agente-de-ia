@@ -45,4 +45,4 @@
 
 ## Link do Vídeo
 
-[Link do vídeo](https://drive.google.com/file/d/16YM189XKG0OE9qt4RcjEYpxCMZNF5XPp/view?usp=sharing)
+[Pitch - Avatar Amigo Investidor](https://drive.google.com/file/d/16YM189XKG0OE9qt4RcjEYpxCMZNF5XPp/view?usp=sharing)
