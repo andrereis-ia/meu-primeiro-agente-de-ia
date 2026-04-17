@@ -75,6 +75,8 @@ flowchart TB
 | Interface | [Streamlit](https://streamlit.io/) |
 | LLM | [Ollama](https://ollama.com/) |
 | Base de Conhecimento | JSON/CSV mockados na pasta "data" |
+| Criação do Avatar | [d-id](https://www.d-id.com/) |
+
 
 ---
 
